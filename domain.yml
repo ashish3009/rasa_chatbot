@@ -1,0 +1,151 @@
+actions:
+- action_city
+- action_get_cuisine
+- action_get_price
+- action_reset
+- action_restarted
+- action_restaurant
+- action_send_mail
+- utter_aboutyourself
+- utter_ask_cuisine
+- utter_ask_howcanhelp
+- utter_ask_ifmail
+- utter_ask_location
+- utter_ask_mail
+- utter_ask_price
+- utter_default
+- utter_email_Sent
+- utter_email_error
+- utter_goodbye
+- utter_greet
+- utter_nontier
+- utter_noresults
+- utter_thanks
+- utter_userask
+entities:
+- cuisine
+- email
+- location
+- num
+- person
+- price
+- thankyou
+intents:
+- affirm
+- restaurant_search
+- greet
+- deny
+- send_mail
+- thankyou
+- ask_email
+- goodbye
+- getnum
+- user_ask
+- about_yourself
+responses:
+  utter_aboutyourself:
+  - text: ' My name is RasaBot. I was created as an assignment. '
+  - text: ' I am RasaBot. My task is to help clients to search restaurants. '
+  - text: ' I am RasaBot. I am a bot .. not a human.'
+  utter_ask_cuisine:
+  - buttons:
+    - payload: chinese
+      title: Chinese
+    - payload: mexican
+      title: Mexican
+    - payload: italian
+      title: Italian
+    - payload: american
+      title: American
+    - payload: south indian
+      title: South Indian
+    - payload: north indian
+      title: North Indian
+    text: What kind of cuisine would you like?
+  utter_ask_howcanhelp:
+  - text: how can I help you?
+  utter_ask_ifmail:
+  - text: Shall I send you the top 10 results via email ('yes' or 'no')?
+  - text: Would you like me to send the top 10 results via email ('yes' or 'no')?
+  - text: Would you like to have the top 10 results emailed to you ('yes' or 'no')?
+  - text: Would you be interested in having top 10 results emailed to you ('yes' or
+      'no')?
+  utter_ask_location:
+  - text: What is the location you are looking for ?
+  - text: Please provide the location
+  - text: Which location ?
+  utter_ask_mail:
+  - text: Could you please share your email address then?
+  - text: What is your email address?
+  - text: Please give your email address
+  - text: Provide your email address please
+  - text: Please enter your email address
+  utter_ask_price:
+  - buttons:
+    - payload: Lesser than Rs. 300
+      title: Lesser than Rs. 300
+    - payload: Rs. 300 to 700
+      title: Rs. 300 to 700
+    - payload: More than Rs. 700
+      title: More than Rs. 700
+    text: Could you pleae provide price range are you looking at?
+  utter_default:
+  - text: I didn't get that. Could you please repeat ?
+  utter_email_Sent:
+  - text: The details have been emailed to you.
+  - text: Email has been sent to your mail address.
+  utter_email_error:
+  - text: Sorry, something went wrong, could not send the email.
+  - text: Email could not be sent due to some issues, appologies.
+  utter_goodbye:
+  - text: goodbye :)
+  - text: Bye-bye !
+  - text: Good bye. Have a great time!
+  - text: It was great helping you. Have a great day!
+  utter_greet:
+  - text: Hi, How may I help you?
+  - text: Hello, how can I help you!
+  - text: Hey, how are you today? How may I help you today?
+  utter_nontier:
+  - text: Sorry, We do not operate in this area yet.
+  - text: Unfortunately, we do not operate in this area yet.
+  utter_noresults:
+  - text: " That's unfortunate. May I help you with any other search?"
+  - text: ' Sorry for that. Can I help you with something else?'
+  utter_thanks:
+  - text: Thanks, Is there anything else I can help you with?
+  - text: My pleasure. What else can I do for you?
+  utter_userask:
+  - text: ' My name is RasaBot. I can help you search for restaurants in tier 1 and
+      2 cities in India.'
+  - text: ' I am RasaBot. I am here to help you find out restaurants in tier 1 and
+      2 indian cities.'
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 0
+slots:
+  cuisine:
+    initial_value: unknown
+    type: text
+  email:
+    initial_value: unknown
+    type: text
+  location:
+    initial_value: unknown
+    type: text
+  location_type:
+    initial_value: false
+    type: bool
+  noresults:
+    initial_value: true
+    type: bool
+  num:
+    initial_value: 0
+    max_value: 1.0
+    min_value: 0.0
+    type: float
+  price:
+    initial_value:
+    - 300
+    - 700
+    type: list

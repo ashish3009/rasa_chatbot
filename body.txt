@@ -1,0 +1,50 @@
+1. Restaurant Name: Soy Affair
+ Restaurant locality address: Shop A2, Sai Heritage, New DP Road, Near Medipoint Hospital, Aundh, Pune
+ Average budget for two people: 500.0
+ Zomato user rating: 4.2
+
+2. Restaurant Name: Mini Wok Oriental Kitchen
+ Restaurant locality address: 7, Charu Chandra Apartments, Near Om Super Market, Model Colony, Pune
+ Average budget for two people: 700.0
+ Zomato user rating: 4.2
+
+3. Restaurant Name: Buddhas Food Palace
+ Restaurant locality address: Shop B7, Near Greenwoods Society, Wanowrie, Pune
+ Average budget for two people: 700.0
+ Zomato user rating: 4.2
+
+4. Restaurant Name: Mandarin Oak
+ Restaurant locality address: House 1141, Shop 1, Ground Floor, Saifee Line, Saifee Street, MG Road, Pune
+ Average budget for two people: 400.0
+ Zomato user rating: 4.2
+
+5. Restaurant Name: Noodle Canteen
+ Restaurant locality address: Shop 102, Victoria 2, Fortaleza, Kalyani Nagar, Pune
+ Average budget for two people: 600.0
+ Zomato user rating: 4.1
+
+6. Restaurant Name: Shee Chinese
+ Restaurant locality address: 5, Kubera Park, Lulla Nagar, Kondhwa Road, Kondhwa, Pune
+ Average budget for two people: 650.0
+ Zomato user rating: 4.1
+
+7. Restaurant Name: China Garden
+ Restaurant locality address: Shop 2, Chanakyapuri Building,Tukaram Paduka Chowk, FC Road, Pune
+ Average budget for two people: 700.0
+ Zomato user rating: 4.1
+
+8. Restaurant Name: Kimling
+ Restaurant locality address: Shop 101, Gera Junction, Lulla Nagar Signal, Wanowrie, Pune
+ Average budget for two people: 600.0
+ Zomato user rating: 4.1
+
+9. Restaurant Name: The Quick Wok
+ Restaurant locality address: Shop 1, Regent Plaza, Baner Pashan Link Road, Baner, Pune
+ Average budget for two people: 600.0
+ Zomato user rating: 4.1
+
+10. Restaurant Name: Golden Dragon
+ Restaurant locality address: 1, Bilwa Kiran Cooperative Society, Mayur Colony, Karve Road, Kothrud, Pune
+ Average budget for two people: 650.0
+ Zomato user rating: 4.1
+
