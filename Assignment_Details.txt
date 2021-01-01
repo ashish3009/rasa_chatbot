@@ -1,0 +1,21 @@
+models(folder)
+		All training data
+		dialogue(folder)
+					files required for dialogue management
+		nlu(folder)			
+
+data(folder)
+		nlu.md
+		stories.md
+		data.json
+
+The folder (after unzipping) rasa-chatbot-restuarant-search-ash-zee conains :
+
+1. domain.yml: Contains intents, actions, slots, responses, buttons.
+2. actions.py: Contains Custom actions like restaurant search, emailing, 
+3. zpmato.py: Contains Zomato API .
+4. soundex: To get soundex value of a city.
+5. Freeze.txt : Contains output of pip freeze
+
+While asking Would you be interested in having top 10 results emailed to you?, user needs to respond 'Yes' or 'No'
+Thanks!
