@@ -164,8 +164,8 @@ class ActionSendMail(Action):
 			body+=line
 		file.close()
 		
-		gmail_user="rasa.assignment@gmail.com"
-		gmail_password="Zeeshashish@123"
+		gmail_user="*******@gmail.com"
+		gmail_password="*********"
 		
 		sent_from=gmail_user
 		to=tracker.get_slot('email')
