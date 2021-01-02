@@ -18,3 +18,4 @@ The folder (after unzipping) rasa-chatbot-restuarant-search-ash-zee conains :
 5. Freeze.txt : Contains output of pip freeze
 
 While asking Would you be interested in having top 10 results emailed to you?, user needs to respond 'Yes' or 'No'
+Thanks !!
